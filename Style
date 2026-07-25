@@ -1,0 +1,542 @@
+/* =========================
+   GOALGEAR NG STYLE
+========================= */
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+}
+
+
+:root{
+
+--green:#16a34a;
+--dark:#111;
+--white:#fff;
+--gray:#f5f5f5;
+
+}
+
+
+
+html{
+scroll-behavior:smooth;
+}
+
+
+body{
+
+background:white;
+color:#333;
+line-height:1.6;
+
+}
+
+
+a{
+
+text-decoration:none;
+
+}
+
+
+
+img{
+
+max-width:100%;
+display:block;
+
+}
+
+
+
+
+.container{
+
+width:90%;
+max-width:1200px;
+margin:auto;
+
+}
+
+
+
+/* =========================
+NAVBAR
+========================= */
+
+
+header{
+
+background:#111;
+padding:15px 0;
+position:sticky;
+top:0;
+z-index:999;
+
+}
+
+
+
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+
+.logo img{
+
+width:80px;
+
+}
+
+
+
+.nav-links{
+
+display:flex;
+gap:25px;
+
+}
+
+
+
+.nav-links a{
+
+color:white;
+font-weight:500;
+transition:.3s;
+
+}
+
+
+.nav-links a:hover{
+
+color:var(--green);
+
+}
+
+
+
+
+
+/* =========================
+HERO
+========================= */
+
+
+.hero{
+
+min-height:90vh;
+
+background:
+linear-gradient(
+90deg,
+rgba(0,0,0,.9),
+rgba(0,0,0,.4)
+),
+url("images/stadium.jpg");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+
+display:flex;
+align-items:center;
+
+}
+
+
+
+
+.hero-content{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:40px;
+
+}
+
+
+
+.hero-text{
+
+max-width:600px;
+
+}
+
+
+
+.hero h1{
+
+font-size:3.5rem;
+line-height:1.2;
+
+}
+
+
+
+.hero h1 span{
+
+color:var(--green);
+
+}
+
+
+
+.hero p{
+
+margin:20px 0;
+font-size:1.1rem;
+
+}
+
+
+
+.hero-image img{
+
+width:420px;
+
+animation:float 3s infinite ease-in-out;
+
+}
+
+
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+}
+
+
+
+
+.hero-buttons{
+
+display:flex;
+gap:15px;
+
+}
+
+
+
+
+
+/* =========================
+BUTTON
+========================= */
+
+
+.btn{
+
+display:inline-block;
+background:var(--green);
+color:white;
+padding:12px 30px;
+border-radius:30px;
+font-weight:bold;
+border:none;
+cursor:pointer;
+transition:.3s;
+
+}
+
+
+.btn:hover{
+
+background:#0f7a36;
+transform:translateY(-3px);
+
+}
+
+
+
+.secondary{
+
+background:white;
+color:#111;
+
+}
+
+
+
+/* =========================
+SECTION TITLE
+========================= */
+
+
+.section-title{
+
+text-align:center;
+margin:60px 0 35px;
+
+}
+
+
+.section-title h2{
+
+font-size:2rem;
+
+}
+
+
+.section-title span{
+
+color:var(--green);
+
+}
+
+
+
+
+/* =========================
+PRODUCT CARDS
+========================= */
+
+
+.products{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+
+
+.card{
+
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+
+.card img{
+
+height:260px;
+width:100%;
+object-fit:cover;
+
+}
+
+
+
+.card-content{
+
+padding:20px;
+
+}
+
+
+
+.price{
+
+color:var(--green);
+font-size:1.2rem;
+font-weight:bold;
+
+}
+
+
+
+
+
+/* =========================
+ABOUT
+========================= */
+
+
+.center-text{
+
+text-align:center;
+max-width:700px;
+margin:auto;
+
+}
+
+
+
+
+
+/* =========================
+ORDER FORM
+========================= */
+
+
+.order-form{
+
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+
+
+.order-form input,
+.order-form select,
+.order-form textarea{
+
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:1rem;
+
+}
+
+
+
+.order-form textarea{
+
+height:120px;
+resize:none;
+
+}
+
+
+
+
+
+/* =========================
+WHATSAPP BUTTON
+========================= */
+
+
+.whatsapp{
+
+position:fixed;
+right:25px;
+bottom:25px;
+
+background:#25D366;
+color:white;
+
+width:60px;
+height:60px;
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:28px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+}
+
+
+
+
+/* =========================
+FOOTER
+========================= */
+
+
+footer{
+
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+
+}
+
+
+footer span{
+
+color:var(--green);
+
+}
+
+
+
+
+
+/* =========================
+MOBILE
+========================= */
+
+
+@media(max-width:768px){
+
+
+.nav-links{
+
+display:none;
+
+}
+
+
+
+.hero-content{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+
+
+.hero h1{
+
+font-size:2.2rem;
+
+}
+
+
+
+.hero-image img{
+
+width:280px;
+
+}
+
+
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+
+.products{
+
+grid-template-columns:1fr;
+
+}
+
+
+}

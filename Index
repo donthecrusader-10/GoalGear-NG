@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GoalGear NG | Premium Football Jerseys</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="container navbar">
+
+<div class="logo">
+<img src="images/logo.png" alt="GoalGear NG Logo">
+</div>
+
+
+<nav class="nav-links">
+<a href="#">Home</a>
+<a href="#products">Jerseys</a>
+<a href="#about">About</a>
+<a href="#order">Order</a>
+</nav>
+
+</div>
+
+</header>
+
+
+
+
+<section class="hero">
+
+<div class="container hero-content">
+
+
+<div class="hero-text">
+
+<h1>
+Premium Football Jerseys For
+<span>True Fans</span>
+</h1>
+
+
+<p>
+Rep your club. Celebrate football.
+Quality jerseys, custom names and classic retro collections.
+</p>
+
+
+<div class="hero-buttons">
+
+<a href="#products" class="btn">
+Shop Jerseys
+</a>
+
+
+<a href="https://wa.me/2347089668365" class="btn secondary">
+WhatsApp Us
+</a>
+
+</div>
+
+</div>
+
+
+
+
+<div class="hero-image">
+
+<img src="images/football-player.png" alt="Football Jersey">
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="products">
+
+
+<div class="container">
+
+
+<div class="section-title">
+
+<h2>
+Our <span>Collections</span>
+</h2>
+
+</div>
+
+
+
+<div class="products">
+
+
+
+<div class="card">
+
+<img src="images/fan-jersey.jpg">
+
+<div class="card-content">
+
+<h3>
+Fan Version
+</h3>
+
+<p>
+Comfortable match-day jersey.
+</p>
+
+<div class="price">
+₦15,000
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/player-jersey.jpg">
+
+<div class="card-content">
+
+<h3>
+Player Version
+</h3>
+
+<p>
+Premium player-quality feel.
+</p>
+
+<div class="price">
+₦18,000
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/retro.jpg">
+
+<div class="card-content">
+
+<h3>
+Retro Collection
+</h3>
+
+<p>
+Classic football memories.
+</p>
+
+<div class="price">
+₦24,000
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="about">
+
+<div class="container">
+
+
+<div class="section-title">
+
+<h2>
+About <span>GoalGear NG</span>
+</h2>
+
+</div>
+
+
+<p class="center-text">
+
+GoalGear NG delivers premium football jerseys for fans who want to represent their teams with style.
+
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section id="order">
+
+
+<div class="container">
+
+
+<div class="section-title">
+
+<h2>
+Place Your <span>Order</span>
+</h2>
+
+</div>
+
+
+
+
+<form class="order-form">
+
+
+<input type="text" placeholder="Your Name" required>
+
+
+<input type="tel" placeholder="WhatsApp Number" required>
+
+
+
+<select>
+
+<option>Select Jersey Type</option>
+
+<option>Fan Version - ₦15,000</option>
+
+<option>Fan Customized - ₦19,000</option>
+
+<option>Player Version - ₦18,000</option>
+
+<option>Player Customized - ₦22,000</option>
+
+<option>Retro - ₦24,000</option>
+
+</select>
+
+
+
+
+<select>
+
+<option>Select Size</option>
+
+<option>S</option>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+<option>XXL</option>
+
+</select>
+
+
+
+
+
+<textarea placeholder="Club, Player Name, Number"></textarea>
+
+
+
+<button class="btn" type="submit">
+Send Order
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<a class="whatsapp" href="https://wa.me/2347089668365">
+💬
+</a>
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 <span>GoalGear NG</span> | Football Lives Here
+</p>
+
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
